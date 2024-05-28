@@ -1,0 +1,32 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "./src/main.js",
+  "private": false,
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "test",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^30.0.8"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "electron-squirrel-startup": "^1.0.1",
+    "express": "^4.19.2"
+  }
+}
